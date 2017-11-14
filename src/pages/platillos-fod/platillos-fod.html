@@ -1,0 +1,26 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>FOD</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <h1 text-center>Platillos</h1>
+  <ion-card *ngFor="let item of platillos">
+    <img [src]="item.foto"/>
+    <ion-card-content>
+      <ion-card-title text-center>
+          {{ item.nombre }}
+      </ion-card-title>
+      <p>{{ item.descripcion }}</p>
+      <p><b>Precio: </b>{{ item.precio }}</p>
+      <br/>
+      <!-- <h2><b>Información Nutrimental:</b></h2>
+      <img [src]="item.infoNutri"/> -->
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

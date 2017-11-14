@@ -5,21 +5,52 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
-import { HomePage } from '../pages/home/home';
+
+import {
+  HomePage,
+  PromosPage,
+  BuscarPage,
+  InfoPage,
+  TabsPage,
+  PlatillosFimePage,
+  PlatillosFacdycPage,
+  PlatillosFodPage,
+  PlatillosFicPage
+} from "../pages/index.paginas";
+
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    PromosPage,
+    BuscarPage,
+    InfoPage,
+    TabsPage,
+    PlatillosFimePage,
+    PlatillosFacdycPage,
+    PlatillosFodPage,
+    PlatillosFicPage
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp, {
+      backButtonText: ''
+    }),
+    BrowserModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    PromosPage,
+    BuscarPage,
+    InfoPage,
+    TabsPage,
+    PlatillosFimePage,
+    PlatillosFacdycPage,
+    PlatillosFodPage,
+    PlatillosFicPage
   ],
   providers: [
     StatusBar,

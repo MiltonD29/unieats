@@ -1,0 +1,29 @@
+<!--
+  Generated template for the PromosPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title text-center>Promociones</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-slides pager>
+
+    <ion-slide *ngFor="let item of promos">
+      <img [src]="item.foto"/>
+      <h4>{{ item.nombre }}</h4>
+      <h3><b>Precio: </b>{{ item.precio }}</h3>
+      <p><b>Disponible en: </b>{{ item.available }}</p>
+    </ion-slide>
+
+  </ion-slides>
+
+</ion-content>

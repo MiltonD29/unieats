@@ -1,0 +1,9 @@
+export { HomePage } from "./home/home";
+export { PromosPage } from "./promos/promos";
+export { BuscarPage } from "./buscar/buscar";
+export { InfoPage } from "./info/info";
+export { TabsPage } from "./tabs/tabs";
+export { PlatillosFimePage } from "./platillos-fime/platillos-fime";
+export { PlatillosFacdycPage } from "./platillos-facdyc/platillos-facdyc";
+export { PlatillosFodPage } from "./platillos-fod/platillos-fod";
+export { PlatillosFicPage } from "./platillos-fic/platillos-fic";

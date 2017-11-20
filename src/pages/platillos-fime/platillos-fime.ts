@@ -34,7 +34,7 @@ export class PlatillosFimePage {
       precio:'$70'
     },
     {
-      foto:'./assets/imgs/platillos-fime/caldo-tlalpeño.jpg',
+      foto:'./assets/imgs/platillos-fime/caldo-tlalpeno.jpg',
       nombre:'Caldo tlalpeño',
       descripcion:'Caldo tradicional servido con pollo, elote, garbanzo, papa y zanahoria',
       precio:'$70'

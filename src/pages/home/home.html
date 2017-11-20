@@ -1,14 +1,16 @@
-<div id="custom-overlay" [style.display]="splash ? 'flex': 'none'">
+<!-- <div id="custom-overlay" [style.display]="splash ? 'flex': 'none'">
   <div class="flb">
     <div class="Aligner-item Aligner-item--top"></div>
     <img src="./assets/imgs/logos/logo.png">
     <div class="Aligner-item Aligner-item--bottom"></div>
   </div>
-</div>
+</div> -->
 
 <ion-header>
   <ion-navbar color="light">
-    <ion-title text-center><h1>UniEats</h1></ion-title>
+    <ion-title text-center>
+      <h1 class="titulo">UniEats</h1>
+    </ion-title>
   </ion-navbar>
 </ion-header>
 
@@ -40,14 +42,14 @@
   <ion-grid color="light">
     <ion-row>
       <ion-col>
-        <ion-card class="category-card">
+        <ion-card class="category-card" (click)="verDesayunos( platillo )">
           <img class="category-img" src="./assets/imgs/desayunos.jpg"/>
           <div class="card-category-title">Desayunos</div>
         </ion-card>
       </ion-col>
 
       <ion-col>
-        <ion-card class="category-card">
+        <ion-card class="category-card" (click)="verComidaRapida( platillo )">
           <img class="category-img" src="./assets/imgs/comida-rapida.jpg"/>
           <div class="card-category-title">Comida rápida</div>
         </ion-card>
@@ -56,14 +58,14 @@
 
     <ion-row>
       <ion-col>
-        <ion-card class="category-card">
+        <ion-card class="category-card" (click)="verComidaDia( platillo )">
           <img class="category-img" src="./assets/imgs/comida-casera.jpg"/>
           <div class="card-category-title">Comida del día</div>
         </ion-card>
       </ion-col>
 
       <ion-col>
-        <ion-card class="category-card">
+        <ion-card class="category-card" (click)="verComidaSaluable( platillo )">
           <img class="category-img" src="./assets/imgs/comida-saludable.jpg"/>
           <div class="card-category-title">Comida saludable</div>
         </ion-card>
@@ -72,14 +74,14 @@
 
     <ion-row>
       <ion-col>
-        <ion-card class="category-card">
+        <ion-card class="category-card" (click)="verPostres( platillo )">
           <img class="category-img" src="./assets/imgs/postres.jpg"/>
           <div class="card-category-title">Postres</div>
         </ion-card>
       </ion-col>
 
       <ion-col>
-        <ion-card class="category-card">
+        <ion-card class="category-card" (click)="verBebidas( platillo )">
           <img class="category-img" src="./assets/imgs/bebida.jpg"/>
           <div class="card-category-title">Bebidas</div>
         </ion-card>

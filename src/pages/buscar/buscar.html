@@ -7,7 +7,7 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title text-center>Buscar categorías</ion-title>
+    <ion-title text-center>Buscar platillos</ion-title>
   </ion-navbar>
 
 </ion-header>
@@ -17,10 +17,21 @@
 
   <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
 
-  <ion-list>
+  <!-- <ion-list>
     <button ion-item *ngFor="let item of items">
       {{ item }}
     </button>
+  </ion-list> -->
+
+  <ion-list *ngFor="let item of items">
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img [src]="item.foto">
+      </ion-thumbnail>
+      <h1>{{ item.nombre }}</h1>
+      <p><b>Precio: </b>{{ item.precio }}</p>
+      <p><b>Disponible: </b>{{ item.disponible }}</p>
+    </ion-item>
   </ion-list>
 
 </ion-content>

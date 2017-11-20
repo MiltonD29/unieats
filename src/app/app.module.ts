@@ -15,7 +15,13 @@ import {
   PlatillosFimePage,
   PlatillosFacdycPage,
   PlatillosFodPage,
-  PlatillosFicPage
+  PlatillosFicPage,
+  DesayunosPage,
+  ComidaRapidaPage,
+  ComidaDiaPage,
+  ComidaSaluablePage,
+  PostresPage,
+  BebidasPage
 } from "../pages/index.paginas";
 
 
@@ -30,7 +36,13 @@ import {
     PlatillosFimePage,
     PlatillosFacdycPage,
     PlatillosFodPage,
-    PlatillosFicPage
+    PlatillosFicPage,
+    DesayunosPage,
+    ComidaRapidaPage,
+    ComidaDiaPage,
+    ComidaSaluablePage,
+    PostresPage,
+    BebidasPage
   ],
   imports: [
     BrowserModule,
@@ -50,7 +62,13 @@ import {
     PlatillosFimePage,
     PlatillosFacdycPage,
     PlatillosFodPage,
-    PlatillosFicPage
+    PlatillosFicPage,
+    DesayunosPage,
+    ComidaRapidaPage,
+    ComidaDiaPage,
+    ComidaSaluablePage,
+    PostresPage,
+    BebidasPage
   ],
   providers: [
     StatusBar,

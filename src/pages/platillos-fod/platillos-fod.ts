@@ -67,8 +67,4 @@ export class PlatillosFodPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad PlatillosFodPage');
-  }
-
 }

@@ -13,16 +13,13 @@
 
   <ion-card *ngFor="let item of platillos">
     <img [src]="item.foto"/>
-    <ion-card-content>
-      <ion-card-title text-center>
-          <b>{{ item.nombre }}</b>
-      </ion-card-title>
-      <p>{{ item.descripcion }}</p>
-      <p><b>Precio: </b>{{ item.precio }}</p>
-      <br/>
-      <!-- <h2><b>Información Nutrimental:</b></h2>
-      <img [src]="item.infoNutri"/> -->
-    </ion-card-content>
+      <ion-card-content>
+        <ion-card-title text-center>
+            <b>{{ item.nombre }}</b>
+        </ion-card-title>
+        <p>{{ item.descripcion }}</p>
+        <p><b>Precio: </b>{{ item.precio }}</p>
+      </ion-card-content>
   </ion-card>
 
 

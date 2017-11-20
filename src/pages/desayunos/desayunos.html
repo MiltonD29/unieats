@@ -1,23 +1,30 @@
+<!--
+  Generated template for the DesayunosPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
 <ion-header>
 
   <ion-navbar>
-    <ion-title>FACDyC</ion-title>
+    <ion-title>Desayunos</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
-  <h1 text-center>Platillos</h1>
+<ion-content>
+
   <ion-card *ngFor="let item of platillos">
     <img [src]="item.foto"/>
     <ion-card-content>
       <ion-card-title text-center>
-          {{ item.nombre }}
+          <b>{{ item.nombre }}</b>
       </ion-card-title>
       <p>{{ item.descripcion }}</p>
       <p><b>Precio: </b>{{ item.precio }}</p>
       <br/>
+      <p><b>Disponible en: </b>{{ item.available }}</p>
       <!-- <h2><b>Información Nutrimental:</b></h2>
       <img [src]="item.infoNutri"/> -->
     </ion-card-content>

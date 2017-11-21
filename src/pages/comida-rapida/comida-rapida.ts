@@ -30,14 +30,14 @@ export class ComidaRapidaPage {
       available:'Cafetería FACDYC'
     },
     {
-      foto:'./assets/imgs/platillos-fod/.jpg',
+      foto:'./assets/imgs/platillos-fod/papas.jpg',
       nombre:'Papas a la francesa',
       descripcion:'Ricas papas a la francesa sazonadas, con aderezo al gusto.',
       precio:'Chicas: $30, grandes: $35',
       available:'Cafetería FOD'
     },
     {
-      foto:'./assets/imgs/platillos-fod/.jpg',
+      foto:'./assets/imgs/platillos-fic/sincro.jpg',
       nombre:'Sincronizada',
       descripcion:'Rica sincronizada acompañada con papas a la francesa (incluye agua fresca)',
       precio:'$35',

@@ -30,7 +30,7 @@ export class ComidaDiaPage {
       available:'Cafetería FIC'
     },
     {
-      foto:'./assets/imgs/platillos-fod/.jpg',
+      foto:'./assets/imgs/platillos-fod/comida-dia.jpg',
       nombre:'Comida del día',
       descripcion:'Guiso a elegir acompañado de dos guarniciones.',
       precio:'$60',

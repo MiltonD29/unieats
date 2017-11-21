@@ -2,4 +2,9 @@ page-buscar {
   .texto p {
     font-size: .5em;
   }
+
+  .item-md ion-thumbnail img {
+    height: 65px !important;
+    width: 83px !important; 
+  }
 }

@@ -24,13 +24,13 @@
   </ion-list> -->
 
   <ion-list *ngFor="let item of items">
-    <ion-item>
+    <ion-item (click)="viewList(item.id)">
       <ion-thumbnail item-start>
-        <img [src]="item.foto">
+        <img [src]="item.foto" className="avatar-img">
       </ion-thumbnail>
       <h1>{{ item.nombre }}</h1>
       <p><b>Precio: </b>{{ item.precio }}</p>
-      <p><b>Disponible: </b>{{ item.disponible }}</p>
+      <!-- <p><b>Disponible: </b>{{ item.disponible }}</p> -->
     </ion-item>
   </ion-list>
 

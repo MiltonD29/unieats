@@ -1,14 +1,19 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>Comida saluable</ion-title>
+    <ion-title text-center>
+      <h2 style="margin-left: -55px">Categorías</h2>
+    </ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content>
+<ion-content padding>
 
+  <div class="div-categoria">
+    <h1 text-center>Comida saludable</h1>
+  </div>
   <ion-card *ngFor="let item of platillos">
     <img [src]="item.foto"/>
     <ion-card-content>
@@ -17,10 +22,7 @@
       </ion-card-title>
       <p>{{ item.descripcion }}</p>
       <p><b>Precio: </b>{{ item.precio }}</p>
-      <br/>
       <p><b>Disponible en: </b>{{ item.available }}</p>
-      <!-- <h2><b>Información Nutrimental:</b></h2>
-      <img [src]="item.infoNutri"/> -->
     </ion-card-content>
   </ion-card>
 

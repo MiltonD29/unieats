@@ -1,18 +1,30 @@
-<!--
-  Generated template for the PostresPage page.
-
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
--->
 <ion-header>
 
   <ion-navbar>
-    <ion-title>postres</ion-title>
+    <ion-title text-center>
+      <h2 style="margin-left: -55px">Categorías</h2>
+    </ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
+
+  <div class="div-categoria">
+    <h1 text-center>Postres</h1>
+  </div>
+
+  <ion-card *ngFor="let item of postres">
+    <img [src]="item.foto"/>
+    <ion-card-content>
+      <ion-card-title text-center>
+          <b>{{ item.nombre }}</b>
+      </ion-card-title>
+      <p><b>Descripción: </b>{{ item.descripcion }}</p>
+      <p><b>Precio: </b>{{ item.precio }}</p>
+      <p><b>Disponible en: </b>{{ item.disponible }}</p>
+    </ion-card-content>
+  </ion-card>
 
 </ion-content>

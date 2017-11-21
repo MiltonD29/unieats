@@ -30,28 +30,28 @@ export class DesayunosPage {
       available:'Cafetería FACDYC'
     },
     {
-      foto:'./assets/imgs/platillos-fod/.jpg',
+      foto:'./assets/imgs/platillos-fod/hotcakes.jpg',
       nombre:'Hot cakes',
       descripcion:'Esponjosos hot cakes acompañados con miel al gusto.',
       precio:'$30',
       available:'Cafetería FOD'
     },
     {
-      foto:'./assets/imgs/platillos-fod/.jpg',
+      foto:'./assets/imgs/platillos-fod/molletes.jpg',
       nombre:'Molletes',
       descripcion:'Pan francés calientito untado con frijoles y queso gratinado.',
       precio:'$25',
       available:'Cafetería FOD'
     },
     {
-      foto:'./assets/imgs/platillos-fod/.jpg',
+      foto:'./assets/imgs/platillos-fod/cereal.jpg',
       nombre:'Cereal',
       descripcion:'Plato de cereal (a elegir) con leche.',
       precio:'$30',
       available:'Cafetería FOD'
     },
     {
-      foto:'./assets/imgs/platillos-fod/.jpg',
+      foto:'./assets/imgs/platillos-fod/huevo.jpg',
       nombre:'Huevos al gusto',
       descripcion:'Elige cualquiera de nuestros complementos',
       precio:'$40 y $45',
